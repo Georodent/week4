@@ -1,0 +1,49 @@
+body  {
+  /* change background to black, and set global font family */
+  background-color: black;
+}
+*  {
+  font-family: sans-serif, serif, Times;
+}
+.content wrapper  {
+  background-color: azure;
+  width: 10em;
+  height: 40em;
+  
+}
+header h1  {
+  /* make bigger color, and font family to sans serif */
+  font-size: 4em;
+  color: purple;
+  text-align: center;
+}
+.main-nav {
+  /* change background color, remove bullets, border each individual nav element, float links, center content within links with padding, width on links, font color and family */
+  list-style-type: none;
+  background-color: mediumpurple;
+  float: left;
+  
+}
+a  {
+  padding: 1em;
+  margin-left: 8em;
+  text-align: center;
+  border-right: .2em solid black;
+}
+aside  {
+  /* clear float, background color, float left, */
+  clear: both;
+  float: left;
+}
+  aside ul  {
+    clear: both;
+    /* clear both */
+}
+article  {
+  float: right;
+  /* background color, float to the right? 
+}
+  /* figure, we want to center that with margin:auto */
+  footer  {
+    /* images float left and centered on the page */
+  }
