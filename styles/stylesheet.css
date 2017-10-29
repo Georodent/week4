@@ -1,49 +1,110 @@
 body  {
   /* change background to black, and set global font family */
   background-color: black;
+  
 }
 *  {
   font-family: sans-serif, serif, Times;
 }
-.content wrapper  {
-  background-color: azure;
-  width: 10em;
-  height: 40em;
-  
+.content-wrapper  {
+  width: 75%;
+  height: 100%;
+  background-color: white;
+  margin-left: 10em;
+  padding-top: 1em;
 }
 header h1  {
-  /* make bigger color, and font family to sans serif */
-  font-size: 4em;
-  color: purple;
+  color: mediumpurple;
   text-align: center;
+  font-size: 2.5em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-.main-nav {
-  /* change background color, remove bullets, border each individual nav element, float links, center content within links with padding, width on links, font color and family */
-  list-style-type: none;
+nav.main-nav  {
+  width: 63.3em;
+  height: 3em;
   background-color: mediumpurple;
+ }
+
+.main-nav ul a  {
+  color: white;
+  display: inline-block;
   float: left;
-  
-}
-a  {
-  padding: 1em;
-  margin-left: 8em;
-  text-align: center;
+  text-decoration: none;
   border-right: .2em solid black;
+  margin: 0 1em;
+  padding: 1em 3rem 1em 1.2em;
+  margin-right: 
 }
-aside  {
-  /* clear float, background color, float left, */
+
+aside {
   clear: both;
   float: left;
+  width: 15em;
+  height: 30em;
+  margin: auto;
+  background-color:#DDA0DD;
 }
-  aside ul  {
-    clear: both;
+
+aside ul  {
+  margin-top: 5em;
+}
+
+aside li  {
+  padding: 1em 5em; 
+}
+
+aside a  {
+  color: white;
+  text-decoration: none;
+}
+
+section  {
+  width: auto;
+  height: 30em;
+  background-color: lavender;
+}
+
+section img  {
+  width: 2em 2em;
+  margin: 3em 8em
+}
+
+figcaption  {
+  font-size: .6em;
+  text-align: center;
+  width: 50em;
+  margin-left: 380px;
+  margin-top: -4em
+}
+
+footer  {
+  clear: both;
+  margin-left: 400px;
+  display: inline;
+}
+
+footer img  {
+  width: 3%;
+  padding: .5em 1em;
+  margin-top: 2em;
+}
+
+
+
+  /* make bigger color, and font family to sans serif */
+  
+
+
+
+
     /* clear both */
-}
-article  {
-  float: right;
+
+
+  
   /* background color, float to the right? 
 }
   /* figure, we want to center that with margin:auto */
-  footer  {
+footer  {
     /* images float left and centered on the page */
   }
