@@ -20,28 +20,30 @@ header h1  {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-/* I can't seem to get the nav bar at the top to be centered and cover the whole width!!*/
-nav.main-nav  {
-  width: 63.3em;
-  height: 3em;
-  background-color: mediumpurple;
- }
+
+.main-nav ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+}
+.main-nav li  {
+	float: left;
+}
 
 .main-nav ul a  {
-  color: white;
-  display: inline-block;
-  float: left;
-  text-decoration: none;
-  border-right: .2em solid black;
-  margin: 0 1em;
-  padding: 1em 3rem 1em 1.2em;
- }
+	display: block;
+	padding: .5em 3.21em;
+	background-color: mediumpurple;
+	text-decoration: none;
+	color: white;
+	border-right: .1em solid black;
+}
 
 aside {
   clear: both;
   float: left;
   width: 15em;
-  height: 30em;
+  height: 28em;
   margin: auto;
   background-color:#DDA0DD;
 }
